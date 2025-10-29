@@ -1,0 +1,49 @@
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header section */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation menu */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+
+nav a:hover 
+  text-decoration: underline;
+
+
+ Main content 
+main 
+  padding: 20px;
+  background-color: white;
+  max-width: 900px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+Gallery section
+.gallery img 
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  border-radius: 8px;
+
+
+ Footer section 
+footer 
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
