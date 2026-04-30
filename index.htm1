@@ -1,8 +1,51 @@
-html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My One-Page Website</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad's Portfolio</title>
+    <!-- This is the full Bootstrap link your site needs to look good -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
+
+    <!-- Responsive Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mohammad's Portfolio</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Visual Appeal) -->
+    <div class="container my-5">
+        <div class="p-5 text-center bg-white rounded-3 shadow-sm">
+            <h1 class="display-4 fw-bold">Welcome to my Project Showcase</h1>
+            <p class="lead">Built with HTML, CSS, and Bootstrap to be fully responsive on all screens.</p>
+            <hr class="my-4">
+            <p>Explore my featured project below.</p>
+        </div>
+    </div>
+
+    <!-- Main Project Card -->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card shadow border-0">
+                    <div class="card-body p-4">
+                        <h5 class="card-title fw-bold">Academy Cinemas</h5>
+                        <p class="card-text">A responsive movie theater website built for my course at The Tech Academy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer (Required) -->
+    <footer class="text-center py-4 border-top mt-5 bg-white">
+        <p class="text-muted">&copy; 2026 Mohammad Twaish | Portfolio Project</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript Link -->
+    <script src="https://jsdelivr.net"></script>
+</body>
+</html>
