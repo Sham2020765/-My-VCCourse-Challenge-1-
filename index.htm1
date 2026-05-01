@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammad's Portfolio</title>
     <!-- This is the full Bootstrap link your site needs to look good -->
-    <link href="https://jsdelivr.net" rel="stylesheet">
-<link href="https://googleapis.com" rel="stylesheet">
+   <link rel="stylesheet" href="https://bootstrapcdn.com">
+<link rel="stylesheet" href="https://googleapis.com">
+body {
+  font-family: "Sofia", sans-serif;
+}
 </head>
 <body class="bg-light">
 
