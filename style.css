@@ -1,5 +1,5 @@
 /* Basic page styling */
-body {font-family: 'Roboto', sans-serif
+body {font-family: "Sofia"', sans-serif;
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
@@ -44,6 +44,16 @@ img:hover{
     opacity: 0.8;
     transform: scale(1.05);
     transition: 0.3s;
+  /* Image hover effects */
+img {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
     border-radius: 100%;
   {
 }
