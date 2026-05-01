@@ -4,8 +4,8 @@ This repository contains my portfolio website and a showcase of the projects I c
 
 ## Projects Completed
 * *Portfolio Website:* A responsive site built using semantic HTML and custom CSS to showcase my skills and work.
-* *[Project Name 2]:* [Brief 1-sentence description of what you built here].
-* *[Project Name 3]:* [Brief 1-sentence description of what you built here].
+* Simple Recipes: A collection of easy-to-follow recipes built with HTML and css.
+* .* Academy Cinemas: A movie theater project using Bootstrap for a responsive design.
 
 ## Tech Used
 * HTML5
